@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="style.css" rel="stylesheet">
+
+    <title>Sign up for a programming course.</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div>
+        <h1>Sign up for a programming course.</h1>
+      </div>
+
+      <div class="form">
+        <div>Language</div>
+        <div>
+          <select id="language" required>
+            <option value="">Please select...</option>
+            <option value="Javascript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="JAVA">JAVA</option>
+            <option value="C++">C++</option>
+          </select>
+        </div>
+        <div>First name</div>
+        <div><input type="text" id="firstName" placeholder="Enter first name" required></div>
+        <div>Last name</div>
+        <div><input type="text" id="lastName" placeholder="Enter last name" required></div>
+        <div id="submit">Submit</div>
+      </div>
+
+      <div class="table">
+        <div class="header">Language</div>
+        <div class="header">First Name</div>
+        <div class="header">Last Name</div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
